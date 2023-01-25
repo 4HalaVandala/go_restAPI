@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/4halavandala/go_restAPI"
-	"github.com/4halavandala/go_restAPI/handler"
-	"github.com/4halavandala/go_restAPI/repository"
-	"github.com/4halavandala/go_restAPI/service"
+	"github.com/4halavandala/go_restAPI/pkg/handler"
+	"github.com/4halavandala/go_restAPI/pkg/repository"
+	"github.com/4halavandala/go_restAPI/pkg/service"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
