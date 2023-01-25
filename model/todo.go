@@ -1,9 +1,9 @@
 package model
 
 type TodoList struct {
-	Id          int    `json:"id"`
-	Tittle      string `json:"tittle"`
-	Description string `json:"description"`
+	Id          int    `json:"id" db:"id"`
+	Tittle      string `json:"tittle" db:"tittle" bindind"required" `
+	Description string `json:"description" db:"description"`
 }
 
 type UserList struct {
